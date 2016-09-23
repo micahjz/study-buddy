@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0CB6DD91CED0BF1009BF6AE /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB6DD81CED0BF1009BF6AE /* myCell.swift */; };
+		C0CB6DE31CEEA514009BF6AE /* Dict+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CB6DE01CEEA514009BF6AE /* Dict+CoreDataProperties.m */; };
+		C0CB6DE41CEEA514009BF6AE /* Dict.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CB6DE21CEEA514009BF6AE /* Dict.m */; };
+		C0F4CE8B1CEA8154006FA88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4CE8A1CEA8154006FA88C /* AppDelegate.swift */; };
+		C0F4CE8D1CEA8154006FA88C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4CE8C1CEA8154006FA88C /* ViewController.swift */; };
+		C0F4CE901CEA8155006FA88C /* Study_Buddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0F4CE8E1CEA8155006FA88C /* Study_Buddy.xcdatamodeld */; };
+		C0F4CE921CEA8155006FA88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F4CE911CEA8155006FA88C /* Assets.xcassets */; };
+		C0F4CE951CEA8155006FA88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F4CE931CEA8155006FA88C /* Main.storyboard */; };
+		C0F4CEA01CEA8155006FA88C /* Study_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4CE9F1CEA8155006FA88C /* Study_BuddyTests.swift */; };
+		C0F4CEAB1CEA8155006FA88C /* Study_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4CEAA1CEA8155006FA88C /* Study_BuddyUITests.swift */; };
+		C0F4CEB91CEA8320006FA88C /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4CEB81CEA8320006FA88C /* DropView.swift */; };
+		C0F4CEBB1CEA834C006FA88C /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4CEBA1CEA834C006FA88C /* Read.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0F4CE9C1CEA8155006FA88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0F4CE7F1CEA8154006FA88C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F4CE861CEA8154006FA88C;
+			remoteInfo = "Study Buddy";
+		};
+		C0F4CEA71CEA8155006FA88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0F4CE7F1CEA8154006FA88C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F4CE861CEA8154006FA88C;
+			remoteInfo = "Study Buddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0CB6DD81CED0BF1009BF6AE /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		C0CB6DDE1CEEA514009BF6AE /* Study Buddy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Study Buddy-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0CB6DDF1CEEA514009BF6AE /* Dict+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dict+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C0CB6DE01CEEA514009BF6AE /* Dict+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Dict+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C0CB6DE11CEEA514009BF6AE /* Dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dict.h; sourceTree = "<group>"; };
+		C0CB6DE21CEEA514009BF6AE /* Dict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dict.m; sourceTree = "<group>"; };
+		C0F4CE871CEA8154006FA88C /* Study Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F4CE8A1CEA8154006FA88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0F4CE8C1CEA8154006FA88C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0F4CE8F1CEA8155006FA88C /* Study_Buddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Study_Buddy.xcdatamodel; sourceTree = "<group>"; };
+		C0F4CE911CEA8155006FA88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0F4CE941CEA8155006FA88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0F4CE961CEA8155006FA88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F4CE9B1CEA8155006FA88C /* Study BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F4CE9F1CEA8155006FA88C /* Study_BuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_BuddyTests.swift; sourceTree = "<group>"; };
+		C0F4CEA11CEA8155006FA88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F4CEA61CEA8155006FA88C /* Study BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F4CEAA1CEA8155006FA88C /* Study_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_BuddyUITests.swift; sourceTree = "<group>"; };
+		C0F4CEAC1CEA8155006FA88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F4CEB81CEA8320006FA88C /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		C0F4CEBA1CEA834C006FA88C /* Read.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0F4CE841CEA8154006FA88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F4CE981CEA8155006FA88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F4CEA31CEA8155006FA88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0F4CE7E1CEA8154006FA88C = {
+			isa = PBXGroup;
+			children = (
+				C0F4CE891CEA8154006FA88C /* Study Buddy */,
+				C0F4CE9E1CEA8155006FA88C /* Study BuddyTests */,
+				C0F4CEA91CEA8155006FA88C /* Study BuddyUITests */,
+				C0F4CE881CEA8154006FA88C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0F4CE881CEA8154006FA88C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F4CE871CEA8154006FA88C /* Study Buddy.app */,
+				C0F4CE9B1CEA8155006FA88C /* Study BuddyTests.xctest */,
+				C0F4CEA61CEA8155006FA88C /* Study BuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F4CE891CEA8154006FA88C /* Study Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				C0CB6DD81CED0BF1009BF6AE /* myCell.swift */,
+				C0F4CE8A1CEA8154006FA88C /* AppDelegate.swift */,
+				C0F4CE8C1CEA8154006FA88C /* ViewController.swift */,
+				C0F4CEB81CEA8320006FA88C /* DropView.swift */,
+				C0F4CEBA1CEA834C006FA88C /* Read.swift */,
+				C0F4CE911CEA8155006FA88C /* Assets.xcassets */,
+				C0F4CE931CEA8155006FA88C /* Main.storyboard */,
+				C0F4CE961CEA8155006FA88C /* Info.plist */,
+				C0F4CE8E1CEA8155006FA88C /* Study_Buddy.xcdatamodeld */,
+				C0CB6DDF1CEEA514009BF6AE /* Dict+CoreDataProperties.h */,
+				C0CB6DE01CEEA514009BF6AE /* Dict+CoreDataProperties.m */,
+				C0CB6DE11CEEA514009BF6AE /* Dict.h */,
+				C0CB6DE21CEEA514009BF6AE /* Dict.m */,
+				C0CB6DDE1CEEA514009BF6AE /* Study Buddy-Bridging-Header.h */,
+			);
+			path = "Study Buddy";
+			sourceTree = "<group>";
+		};
+		C0F4CE9E1CEA8155006FA88C /* Study BuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0F4CE9F1CEA8155006FA88C /* Study_BuddyTests.swift */,
+				C0F4CEA11CEA8155006FA88C /* Info.plist */,
+			);
+			path = "Study BuddyTests";
+			sourceTree = "<group>";
+		};
+		C0F4CEA91CEA8155006FA88C /* Study BuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0F4CEAA1CEA8155006FA88C /* Study_BuddyUITests.swift */,
+				C0F4CEAC1CEA8155006FA88C /* Info.plist */,
+			);
+			path = "Study BuddyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0F4CE861CEA8154006FA88C /* Study Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F4CEAF1CEA8155006FA88C /* Build configuration list for PBXNativeTarget "Study Buddy" */;
+			buildPhases = (
+				C0F4CE831CEA8154006FA88C /* Sources */,
+				C0F4CE841CEA8154006FA88C /* Frameworks */,
+				C0F4CE851CEA8154006FA88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Study Buddy";
+			productName = "Study Buddy";
+			productReference = C0F4CE871CEA8154006FA88C /* Study Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0F4CE9A1CEA8155006FA88C /* Study BuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F4CEB21CEA8155006FA88C /* Build configuration list for PBXNativeTarget "Study BuddyTests" */;
+			buildPhases = (
+				C0F4CE971CEA8155006FA88C /* Sources */,
+				C0F4CE981CEA8155006FA88C /* Frameworks */,
+				C0F4CE991CEA8155006FA88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0F4CE9D1CEA8155006FA88C /* PBXTargetDependency */,
+			);
+			name = "Study BuddyTests";
+			productName = "Study BuddyTests";
+			productReference = C0F4CE9B1CEA8155006FA88C /* Study BuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0F4CEA51CEA8155006FA88C /* Study BuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F4CEB51CEA8155006FA88C /* Build configuration list for PBXNativeTarget "Study BuddyUITests" */;
+			buildPhases = (
+				C0F4CEA21CEA8155006FA88C /* Sources */,
+				C0F4CEA31CEA8155006FA88C /* Frameworks */,
+				C0F4CEA41CEA8155006FA88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0F4CEA81CEA8155006FA88C /* PBXTargetDependency */,
+			);
+			name = "Study BuddyUITests";
+			productName = "Study BuddyUITests";
+			productReference = C0F4CEA61CEA8155006FA88C /* Study BuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0F4CE7F1CEA8154006FA88C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Micah Zirn";
+				TargetAttributes = {
+					C0F4CE861CEA8154006FA88C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0F4CE9A1CEA8155006FA88C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C0F4CE861CEA8154006FA88C;
+					};
+					C0F4CEA51CEA8155006FA88C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C0F4CE861CEA8154006FA88C;
+					};
+				};
+			};
+			buildConfigurationList = C0F4CE821CEA8154006FA88C /* Build configuration list for PBXProject "Study Buddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0F4CE7E1CEA8154006FA88C;
+			productRefGroup = C0F4CE881CEA8154006FA88C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0F4CE861CEA8154006FA88C /* Study Buddy */,
+				C0F4CE9A1CEA8155006FA88C /* Study BuddyTests */,
+				C0F4CEA51CEA8155006FA88C /* Study BuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0F4CE851CEA8154006FA88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F4CE921CEA8155006FA88C /* Assets.xcassets in Resources */,
+				C0F4CE951CEA8155006FA88C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F4CE991CEA8155006FA88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F4CEA41CEA8155006FA88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0F4CE831CEA8154006FA88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F4CE8D1CEA8154006FA88C /* ViewController.swift in Sources */,
+				C0CB6DD91CED0BF1009BF6AE /* myCell.swift in Sources */,
+				C0F4CEB91CEA8320006FA88C /* DropView.swift in Sources */,
+				C0CB6DE41CEEA514009BF6AE /* Dict.m in Sources */,
+				C0CB6DE31CEEA514009BF6AE /* Dict+CoreDataProperties.m in Sources */,
+				C0F4CE901CEA8155006FA88C /* Study_Buddy.xcdatamodeld in Sources */,
+				C0F4CEBB1CEA834C006FA88C /* Read.swift in Sources */,
+				C0F4CE8B1CEA8154006FA88C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F4CE971CEA8155006FA88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F4CEA01CEA8155006FA88C /* Study_BuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F4CEA21CEA8155006FA88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F4CEAB1CEA8155006FA88C /* Study_BuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0F4CE9D1CEA8155006FA88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F4CE861CEA8154006FA88C /* Study Buddy */;
+			targetProxy = C0F4CE9C1CEA8155006FA88C /* PBXContainerItemProxy */;
+		};
+		C0F4CEA81CEA8155006FA88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F4CE861CEA8154006FA88C /* Study Buddy */;
+			targetProxy = C0F4CEA71CEA8155006FA88C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0F4CE931CEA8155006FA88C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F4CE941CEA8155006FA88C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0F4CEAD1CEA8155006FA88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0F4CEAE1CEA8155006FA88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0F4CEB01CEA8155006FA88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Study Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.Study-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Study Buddy/Study Buddy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0F4CEB11CEA8155006FA88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Study Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.Study-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Study Buddy/Study Buddy-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C0F4CEB31CEA8155006FA88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Study BuddyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.Study-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study Buddy.app/Contents/MacOS/Study Buddy";
+			};
+			name = Debug;
+		};
+		C0F4CEB41CEA8155006FA88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Study BuddyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.Study-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study Buddy.app/Contents/MacOS/Study Buddy";
+			};
+			name = Release;
+		};
+		C0F4CEB61CEA8155006FA88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Study BuddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.Study-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study Buddy";
+			};
+			name = Debug;
+		};
+		C0F4CEB71CEA8155006FA88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Study BuddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.Study-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study Buddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0F4CE821CEA8154006FA88C /* Build configuration list for PBXProject "Study Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F4CEAD1CEA8155006FA88C /* Debug */,
+				C0F4CEAE1CEA8155006FA88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F4CEAF1CEA8155006FA88C /* Build configuration list for PBXNativeTarget "Study Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F4CEB01CEA8155006FA88C /* Debug */,
+				C0F4CEB11CEA8155006FA88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F4CEB21CEA8155006FA88C /* Build configuration list for PBXNativeTarget "Study BuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F4CEB31CEA8155006FA88C /* Debug */,
+				C0F4CEB41CEA8155006FA88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F4CEB51CEA8155006FA88C /* Build configuration list for PBXNativeTarget "Study BuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F4CEB61CEA8155006FA88C /* Debug */,
+				C0F4CEB71CEA8155006FA88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0F4CE8E1CEA8155006FA88C /* Study_Buddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0F4CE8F1CEA8155006FA88C /* Study_Buddy.xcdatamodel */,
+			);
+			currentVersion = C0F4CE8F1CEA8155006FA88C /* Study_Buddy.xcdatamodel */;
+			path = Study_Buddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0F4CE7F1CEA8154006FA88C /* Project object */;
+}
